@@ -1,3 +1,5 @@
+# book_class.py
+
 class Book:
     """
     A class to represent a book with its title, author, and publication year.
@@ -11,7 +13,7 @@ class Book:
         self.title = title
         self.author = author
         self.year = year
-        print(f"A new book has been created: {self.title}")
+        # The print statement has been removed to match the expected output.
 
     def __del__(self):
         """
